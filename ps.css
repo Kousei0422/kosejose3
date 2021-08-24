@@ -1,5 +1,6 @@
 body {
   margin: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 a {
   text-decoration: none;
@@ -150,31 +151,101 @@ ul {
   color: black;
 }
 .head-box {
-  position: absolute;
-  background-image: url("./pics/head.png");
-  background-size: cover;
+  height: 570px;
+}
+.head-box img {
   width: 100%;
-  height: 530px;
 }
 .head-box h2 {
   color: white;
-  margin-top: 160px;
-  margin-left: 280px;
+  margin-top: -400px;
+  margin-left: 290px;
   font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .head-box h1 {
   color: white;
-  margin-left: 180px;
+  margin-left: 190px;
   font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .head-box button {
   background-color: white;
   padding: 8px 16px;
   border-radius: 70px;
-  margin-left: 260px;
   font-size: 17px;
+  margin-left: 270px;
 }
 .head-box button:hover {
   padding: 10px 20px;
   border: 3px black inset;
+}
+.video-box {
+  background-color: lightgrey;
+  margin-top: -70px;
+  height: 1070px;
+}
+.video-box h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-video {
+  text-align: center;
+  margin-top: 50px;
+}
+.sub-video {
+  text-align: center;
+  margin-top: 60px;
+}
+.sub-video iframe {
+  margin-left: 30px;
+}
+.video-box__text1 {
+  text-align: center;
+  font-size: 18px;
+}
+.video-box__text2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.main-box__top__img1 {
+  width: 93%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.main-box__top__info1 {
+  text-align: center;
+}
+.main-box__top__info1 h1 {
+  margin-top: -10px;
+  font-size: 40px;
+}
+.main-box__top__info1 p {
+  font-size: 20px;
+  color: dimgrey;
+}
+.main-box__top__info2 {
+  width: 500px;
+  height: 300px;
+  float: left;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 260px;
+}
+.main-box__top__img2 {
+  width: 25%;
+}
+.main-box__top__info3 {
+  width: 500px;
+  float: left;
+  text-align: center;
+  margin-top: 50px;
+  height: 300px;
+  margin-left: -50px;
+}
+.main-box__top__img3 {
+  width: 25%;
 }

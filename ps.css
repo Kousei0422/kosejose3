@@ -120,8 +120,6 @@ ul {
 .header-bottom {
   height: 80px;
   border-bottom: solid black 1px;
-  position: sticky;
-  top: 0;
 }
 .header-bottom__img img {
   height: 40px;
@@ -178,7 +176,7 @@ ul {
 }
 .head-box button:hover {
   padding: 10px 20px;
-  border: 3px black inset;
+  border: 3px black solid;
 }
 .video-box {
   background-color: lightgrey;
@@ -210,6 +208,10 @@ ul {
   text-align: center;
   margin-top: 20px;
   font-size: 13px;
+}
+.main-box__bottom__title h1 {
+  text-align: center;
+  font-size: 40px;
 }
 .main-box__top {
   height: 1150px;
@@ -309,7 +311,7 @@ ul {
   margin-left: 10px;
 }
 .ps5console-info button:hover {
-  font-size: 18px;
+  border: solid black 3px;
 }
 .ps5console-img {
   margin-top: 30px;
@@ -330,7 +332,7 @@ ul {
   border: none;
 }
 .console-button2 button:hover {
-  font-size: 18px;
+  border: black solid 3px;
 }
 .ps5degital-info {
   margin-left: 70px;
@@ -350,7 +352,7 @@ ul {
   margin-left: 10px;
 }
 .ps5degital-info button:hover {
-  font-size: 18px;
+  border: black solid 3px;
 }
 .ps5degital-img {
   margin-top: 50px;
@@ -374,7 +376,7 @@ ul {
   border: none;
 }
 .degital-button2 button:hover {
-  font-size: 18px;
+  border: black solid 3px;
 }
 .button-box {
   text-align: center;
@@ -385,9 +387,230 @@ ul {
   font-size: 15px;
   background-color: white;
   color: black;
-  border-bottom: royalblue solid 3px;
+  border-bottom: black solid 3px;
+  opacity: 0.5;
+}
+.button-box button:hover {
+  opacity: 0.3;
 }
 .main-box__bottom h1 {
   margin-top: 60px;
   margin-bottom: 70px;
+}
+#psconsole,
+#psdegital {
+  display: none;
+  height: 800px;
+}
+#psdegital {
+  height: 900px;
+}
+#button1.active,
+#button2.active {
+  color: royalblue;
+  border-bottom: royalblue solid 3px;
+  opacity: 1;
+}
+#psconsole.active,
+#psdegital.active {
+  display: block;
+}
+.game-box {
+  background-color: lightgrey;
+  height: 1980px;
+}
+.game-box h1 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+}
+.game-box__video {
+  text-align: center;
+  margin-top: 40px;
+}
+.game-box img {
+  width: 650px;
+}
+.game-box__spiderman {
+  float: left;
+  margin-left: 50px;
+  margin-right: 35px;
+  margin-top: 70px;
+}
+.game-box__horizon {
+  margin-top: 70px;
+}
+.game-box a {
+  background-color: royalblue;
+  border-radius: 70px;
+  color: white;
+  padding: 10px 20px;
+}
+.game-box a:hover {
+  border: white solid 3px;
+}
+.game-box a:active {
+  opacity: 0.6;
+}
+.game-box__sackboy {
+  float: left;
+  margin-left: 50px;
+  margin-right: 35px;
+  margin-top: 70px;
+}
+.game-box__fifa {
+  margin-top: 70px;
+}
+.game-box__more {
+  text-align: center;
+  margin-top: 110px;
+}
+.game-box__more a {
+  color: royalblue;
+  background-color: silver;
+}
+.game-box__more a:active {
+  background-color: royalblue;
+}
+.psplus-box {
+  margin-top: -25px;
+}
+.psplus-box img {
+  width: 100%;
+  position: absolute;
+}
+.psplus-box h2 {
+  position: relative;
+  top: 180px;
+  left: 50px;
+  font-size: 30px;
+}
+.psplus-box p {
+  position: relative;
+  top: 190px;
+  left: 50px;
+  font-size: 15px;
+}
+.psplus-box a {
+  position: relative;
+  top: 220px;
+  left: 50px;
+  background-color: royalblue;
+  border-radius: 70px;
+  color: white;
+  padding: 10px 20px;
+}
+.psplus-box a:hover {
+  border: white solid 3px;
+}
+.psplus-box a:active {
+  background-color: royalblue;
+}
+.psplus-box__text {
+  width: 50%;
+}
+.ps3d-box {
+  margin-top: 390px;
+}
+.ps3d-box img {
+  width: 100%;
+}
+.pssense-box {
+  text-align: center;
+  margin-top: 50px;
+}
+.pssense-box h1 {
+  font-size: 40px;
+}
+.pssense-box p {
+  margin-top: 35px;
+}
+.pssense-box iframe {
+  margin-top: 40px;
+}
+.pssense-box__info1 img {
+  width: 30%;
+}
+.pssense-box__info2 img {
+  width: 30%;
+}
+.pssense-box__info1 {
+  float: left;
+  width: 45%;
+  text-align: center;
+  margin-left: 65px;
+  margin-top: 50px;
+  height: 400px;
+}
+.pssense-box__info2 {
+  float: right;
+  width: 45%;
+  text-align: center;
+  margin-right: 65px;
+  margin-top: 50px;
+  height: 400px;
+}
+.pssense-box__button {
+  text-align: center;
+}
+.pssense-box__button a {
+  background-color: royalblue;
+  border-radius: 70px;
+  color: white;
+  padding: 10px 20px;
+}
+.pssense-box__button a:hover {
+  border: black solid 3px;
+}
+.psastros {
+  height: 470px;
+}
+.psastros img {
+  float: left;
+  width: 40%;
+  margin-left: 135px;
+  margin-top: 90px;
+}
+.psastros h2 {
+  margin-left: 730px;
+  padding-top: 90px;
+  font-size: 30px;
+}
+.psastros p {
+  margin-left: 730px;
+  margin-bottom: 40px;
+}
+.psastros a {
+  margin-left: 20px;
+  background-color: royalblue;
+  border-radius: 70px;
+  color: white;
+  padding: 10px 20px;
+}
+.psastros a:hover {
+  border: black solid 3px;
+}
+.psec-box {
+  background-color: lightgrey;
+  height: 650px;
+}
+.psec-box h2 {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 40px;
+}
+.psec-box__content {
+  margin-top: 80px;
+  margin-left: 400px;
+}
+.psec-box__content img {
+  width: 9%;
+  float: left;
+  margin-right: 30px;
+}
+.psec-box__content h3 {
+  font-size: 25px;
+}
+.psec-box__content p {
+  font-size: 16px;
 }

@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-
     <link rel="stylesheet" href="ps.css">
+    <script type="text/javascript" src="ps.js"></script>
 
 </head>
 <body>
@@ -134,9 +134,137 @@
         </div>
     </div>
     <div class="main-box__middle">
-        
+     <div class="background">
+        <h2>Stunning games</h2>
+        <p class="middle-top__text">Marvel at incredible graphics and experience new PS5 features. </p>
+        <div class="middle-content">
+            <img src="./pics/raytrace.png" alt="">
+            <h3>Ray tracing</h3>
+            <p>Immerse yourself in worlds with a new level of realism as rays of light are individually simulated, creating true-to-life 
+                <br/>shadows and reflections in supported PS5 games.</p>
+        </div>
+        <div class="middle-content">
+            <img src="./pics/4k.png" alt="">
+            <h3>4K-TV gaming</h3>
+            <p>Play your favorite PS5 games on your stunning 4K TV.</p>
+        </div>
+        <div class="middle-content">
+            <img src="./pics/120fps.png" alt="">
+            <h3>Up to 120fps with 120Hz output</h3>
+            <p>Enjoy smooth and fluid high frame rate gameplay at up to 120fps for compatible  games, with support for 120Hz 
+                <br/>output on 4K displays.</p>
+        </div>
+        <div class="middle-content">
+            <img src="./pics/hdr.png" alt="">
+            <h3>HDR technology</h3>
+            <p>With an HDR TV, supported PS5 games display an unbelievably vibrant and lifelike range of colors.</p>
+        </div>
+        <div class="middle-content">
+            <img src="./pics/8k.png" alt="">
+            <h3>8K support</h3>
+            <p>The PS5 console is compatible with 8K displays through HDMI 2.1 support.</p>
+        </div>
+     </div>
     </div>
+    <div class="main-box__bottom">
+        <h1>Choose a console edition to learn more</h1>
+        <div class="tab-panel">
+            <!--タブ-->
+            <div class="button-box">
+                <button id="button1">PS5 console</button>
+                <button id="button2">PS5 Degital Edition</button>
+            </div>
+            <!--タブを切り替えて表示するコンテンツ-->
+            <div class="panel-group">
+              <div class="panel tab-A is-show" id="psconsole">
+                  <div class="ps5console-info">
+                  <h1>More PS5 console features</h1>
+                <h3>Backwards compatibility</h3>
+                <p>Play a back catalog of PS4™ games on your PS5 console</p>
+                <h3>Game boost</h3>
+                <p>Enjoy faster and smoother frame rates in select PS4 and PS VR games.</p>
+                <h3>Upgrade PS4 games to digital PS5 games</h3>
+                <p>The PS5 console gives game publishers the ability to let players upgrade their disc and 
+                    <br/>digital PS4 games to digital PS5 games.1</p>
+                <h3>PlayStation®VR integration</h3>
+                <p>Connect your PlayStation VR to your PS5 console to enjoy supported PS VR games. To 
+                    <br/>set up your PS VR with your PS5 console you’ll need your PlayStation Camera2 for PS4 
+                    <br/>and a PlayStation Camera adaptor (no purchase necessary).</p>
+                <button>Request your PlayStation Camera adaptor now</button>
+                  </div>
+                <div class="ps5console-img">
+                <img src="./pics/ps5.console.png" alt="">
+                </div>
+                <div class="console-button2">
+                <button>Browse the range</button>
+                </div>
+                </div>
+
+              <div class="panel tab-B" id="psdegital">
+                    <div class="ps5degital-img">
+                        <img src="./pics/ps5degital.png" alt="">
+                        </div>
+                    <div class="ps5degital-info">
+                    <h1>More PS5 Digital Edition features</h1>
+                    <p>PS5 Digital Edition is an all-digital version of the PS5 console with no disc drive. Sign 
+                        <br/>into your account for PlayStation Network and go to PlayStation®Store to buy and 
+                        <br/>download games.3</p>
+                  <h3>Backwards compatibility</h3>
+                  <p>Play a back catalog of digital PS4 games on your PS5 Digital Edition.</p>
+                  <h3>Game boost</h3>
+                  <p>Enjoy faster and smoother frame rates in select PS4 and PS VR games.</p>
+                  <h3>Upgrade PS4 games to digital PS5 games</h3>
+                  <p>The PS5 console gives game publishers the ability to let players upgrade their disc and 
+                      <br/>digital PS4 games to digital PS5 games.1</p>
+                  <h3>PlayStation®VR integration</h3>
+                  <p>Connect your PlayStation VR to your PS5 console to enjoy supported PS VR games. To 
+                      <br/>set up your PS VR with your PS5 console you’ll need your PlayStation Camera2 for PS4 
+                      <br/>and a PlayStation Camera adaptor (no purchase necessary).</p>
+                  <button>Request your PlayStation Camera adaptor now</button>
+                    </div>
+                  <div class="degital-button2">
+                  <button>Browse the range</button>
+                  </div>
+
+            </div>
+          </div>
+    </div>
+    </div>
+    <script>
+         
+         var button = document.getElementById('button2');
+
+     
+        button.onclick = function() {
+            var div1 = document.getElementById('psconsole');
+            var div2 = document.getElementById('psdegital');
+        if (div1.style.display !== 'none') {
+            div1.style.display = 'none';
+            div2.style.display = '';
+        }
+        else {
+            div1.style.display = 'none';
+        }
+        };
+
+        var button = document.getElementById('button1');
+
+     
+        button.onclick = function() {
+            var div1 = document.getElementById('psconsole');
+            var div2 = document.getElementById('psdegital');
+        if (div1.style.display !== 'none') {
+            div1.style.display = '';
+            div2.style.display = 'none';
+        }
+        else {
+            div1.style.display = '';
+        }
+        };
+
+        
 
     
+    </script>
 </body>
 </html>

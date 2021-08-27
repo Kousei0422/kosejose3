@@ -1,10 +1,12 @@
 body {
   margin: 0 0;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400px;
 }
 a {
   text-decoration: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500px;
 }
 ul {
   list-style: none;
@@ -46,7 +48,7 @@ ul {
 }
 
 .gnav li:hover {
-  background: #3e3e3e;
+  opacity: 0.6;
 }
 
 .gnav a {
@@ -59,46 +61,6 @@ ul {
   border-right: solid 1px #fefefe;
 }
 
-.gnav > li:hover .megamenu {
-  max-height: 9999px;
-  opacity: 1;
-  padding: 30px 0;
-}
-
-.megamenu {
-  background: white;
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  width: 100%;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  transition: all 0.2s ease-in;
-  z-index: 999;
-}
-
-.megamenu-inner {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.megamenu-inner li {
-  width: calc((100% / 5));
-  padding: 0;
-}
-
-.megamenu-inner a {
-  border-left: none;
-}
-
-.megamenu-inner-img {
-  margin: 0 0 10px;
-}
-
-.megamenu-inner-text img {
-  margin: 0 5px 0 0;
-}
 .header-middle button {
   float: right;
   width: 80px;
@@ -613,4 +575,51 @@ ul {
 }
 .psec-box__content p {
   font-size: 16px;
+}
+.footer_box {
+  background-color: #eeeeed;
+  width: 91.7%;
+  height: 630px;
+  padding: 60px;
+}
+.Marvel_pic {
+  width: 200px;
+  height: 82px;
+}
+.marvel_rights {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+.BlueFooterbox {
+  background-color: #00439c;
+  width: 93%;
+  height: 370px;
+  padding: 50px;
+  display: flex;
+}
+.Logos {
+  width: 40%;
+  height: auto;
+}
+.Logo_play {
+  width: 250px;
+  height: 130px;
+}
+.Logo_sony {
+  width: 350px;
+  height: 100px;
+}
+.Links {
+  padding: 30px;
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.links1 a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }

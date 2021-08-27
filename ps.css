@@ -1,0 +1,625 @@
+body {
+  margin: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400px;
+}
+a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500px;
+}
+ul {
+  list-style: none;
+}
+.header-top {
+  background-color: black;
+  height: 35px;
+}
+.header-top h2 {
+  margin-top: 8px;
+  margin-right: 15px;
+  float: right;
+  color: white;
+  font-size: 23px;
+}
+.i1 {
+  font-size: 23px;
+  margin-left: 25px;
+  margin-top: 5px;
+  color: royalblue;
+}
+.gnav-wrapper {
+  position: relative;
+  float: right;
+  height: 25px;
+  margin-right: 1000px;
+  margin-top: -35px;
+  font-size: 13px;
+}
+
+.gnav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gnav li {
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.gnav li:hover {
+  opacity: 0.6;
+}
+
+.gnav a {
+  color: black;
+  border-left: solid 1px #fefefe;
+  padding: 0 10px;
+}
+
+.gnav > li:last-child a {
+  border-right: solid 1px #fefefe;
+}
+
+.header-middle button {
+  float: right;
+  width: 80px;
+  height: 23px;
+  width: 80px;
+  font-size: 17px;
+  background-color: dimgray;
+  color: white;
+  border-radius: 80px;
+  margin-right: 30px;
+  margin-top: -20px;
+  padding-bottom: 20px;
+}
+.i2 {
+  float: right;
+  margin-right: 25px;
+  margin-top: -15px;
+}
+.header-bottom {
+  height: 80px;
+  border-bottom: solid black 1px;
+}
+.header-bottom__img img {
+  height: 40px;
+  width: 170px;
+  margin-top: 20px;
+  margin-left: 25px;
+  float: left;
+}
+.header-bottom__contents {
+  margin-left: 200px;
+  margin-top: 40px;
+  float: left;
+}
+.header-bottom__contents a {
+  font-size: 18px;
+  margin-left: 15px;
+  padding: 15px;
+}
+.header-bottom__contents a:hover {
+  color: royalblue;
+}
+.button1 {
+  border-bottom: royalblue 5px solid;
+  color: royalblue;
+}
+.normal-button {
+  color: black;
+}
+.head-box {
+  height: 570px;
+}
+.head-box img {
+  width: 100%;
+}
+.head-box h2 {
+  color: white;
+  margin-top: -400px;
+  margin-left: 290px;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.head-box h1 {
+  color: white;
+  margin-left: 190px;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.head-box button {
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 70px;
+  font-size: 17px;
+  margin-left: 270px;
+}
+.head-box button:hover {
+  padding: 10px 20px;
+  border: 3px black solid;
+}
+.video-box {
+  background-color: lightgrey;
+  margin-top: -70px;
+  height: 1070px;
+}
+.video-box h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-video {
+  text-align: center;
+  margin-top: 50px;
+}
+.sub-video {
+  text-align: center;
+  margin-top: 60px;
+}
+.sub-video iframe {
+  margin-left: 30px;
+}
+.video-box__text1 {
+  text-align: center;
+  font-size: 18px;
+}
+.video-box__text2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.main-box__bottom__title h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.main-box__top {
+  height: 1150px;
+}
+.main-box__top__img1 {
+  width: 93%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.main-box__top__info1 {
+  text-align: center;
+}
+.main-box__top__info1 h1 {
+  margin-top: -10px;
+  font-size: 40px;
+}
+.main-box__top__info1 p {
+  font-size: 20px;
+  color: dimgrey;
+}
+.main-box__top__info2 {
+  width: 500px;
+  height: 300px;
+  float: left;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 260px;
+}
+.main-box__top__img2 {
+  width: 25%;
+}
+.main-box__top__info3 {
+  width: 500px;
+  float: left;
+  text-align: center;
+  margin-top: 50px;
+  height: 300px;
+  margin-left: -50px;
+}
+.main-box__top__img3 {
+  width: 25%;
+}
+.main-box__middle {
+  background-image: url("./pics/horizon.JPG");
+  background-size: cover;
+  height: 1000px;
+  color: white;
+}
+.main-box__middle h2 {
+  text-align: center;
+  padding-top: 75px;
+  font-size: 40px;
+  opacity: 0.9;
+}
+.middle-top__text {
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.7;
+}
+.middle-content {
+  margin-top: 75px;
+  margin-left: 400px;
+}
+.middle-content img {
+  width: 10%;
+  float: left;
+  margin-right: 30px;
+}
+.middle-content h3 {
+  font-size: 25px;
+  opacity: 0.9;
+}
+.middle-content p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+.background {
+  background: rgba(0, 0, 0, 0.3);
+  height: 1000px;
+}
+.ps5console-info {
+  width: 50%;
+  float: left;
+  margin-left: 70px;
+}
+.ps5console-info h3 {
+  margin-top: 45px;
+}
+.ps5console-info button {
+  padding: 10px;
+  border-radius: 70px;
+  border: none;
+  font-size: 17px;
+  color: white;
+  background-color: royalblue;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.ps5console-info button:hover {
+  border: solid black 3px;
+}
+.ps5console-img {
+  margin-top: 30px;
+}
+.ps5console-img img {
+  width: 34%;
+  margin-top: 80px;
+}
+.console-button2 {
+  text-align: center;
+}
+.console-button2 button {
+  color: white;
+  background-color: chocolate;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 70px;
+  border: none;
+}
+.console-button2 button:hover {
+  border: black solid 3px;
+}
+.ps5degital-info {
+  margin-left: 70px;
+  padding-top: 30px;
+}
+.ps5degital-info h3 {
+  margin-top: 45px;
+}
+.ps5degital-info button {
+  padding: 10px;
+  border-radius: 70px;
+  border: none;
+  font-size: 17px;
+  color: white;
+  background-color: royalblue;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.ps5degital-info button:hover {
+  border: black solid 3px;
+}
+.ps5degital-img {
+  margin-top: 50px;
+  float: left;
+  margin-left: 250px;
+}
+.ps5degital-img img {
+  margin-top: 30px;
+  width: 500px;
+}
+.degital-button2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.degital-button2 button {
+  color: white;
+  background-color: chocolate;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 70px;
+  border: none;
+}
+.degital-button2 button:hover {
+  border: black solid 3px;
+}
+.button-box {
+  text-align: center;
+}
+.button-box button {
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  border-bottom: black solid 3px;
+  opacity: 0.5;
+}
+.button-box button:hover {
+  opacity: 0.3;
+}
+.main-box__bottom h1 {
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+#psconsole,
+#psdegital {
+  display: none;
+  height: 800px;
+}
+#psdegital {
+  height: 900px;
+}
+#button1.active,
+#button2.active {
+  color: royalblue;
+  border-bottom: royalblue solid 3px;
+  opacity: 1;
+}
+#psconsole.active,
+#psdegital.active {
+  display: block;
+}
+.game-box {
+  background-color: lightgrey;
+  height: 1980px;
+}
+.game-box h1 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+}
+.game-box__video {
+  text-align: center;
+  margin-top: 40px;
+}
+.game-box img {
+  width: 650px;
+}
+.game-box__spiderman {
+  float: left;
+  margin-left: 50px;
+  margin-right: 35px;
+  margin-top: 70px;
+}
+.game-box__horizon {
+  margin-top: 70px;
+}
+.game-box a {
+  background-color: royalblue;
+  border-radius: 70px;
+  color: white;
+  padding: 10px 20px;
+}
+.game-box a:hover {
+  border: white solid 3px;
+}
+.game-box a:active {
+  opacity: 0.6;
+}
+.game-box__sackboy {
+  float: left;
+  margin-left: 50px;
+  margin-right: 35px;
+  margin-top: 70px;
+}
+.game-box__fifa {
+  margin-top: 70px;
+}
+.game-box__more {
+  text-align: center;
+  margin-top: 110px;
+}
+.game-box__more a {
+  color: royalblue;
+  background-color: silver;
+}
+.game-box__more a:active {
+  background-color: royalblue;
+}
+.psplus-box {
+  margin-top: -25px;
+}
+.psplus-box img {
+  width: 100%;
+  position: absolute;
+}
+.psplus-box h2 {
+  position: relative;
+  top: 180px;
+  left: 50px;
+  font-size: 30px;
+}
+.psplus-box p {
+  position: relative;
+  top: 190px;
+  left: 50px;
+  font-size: 15px;
+}
+.psplus-box a {
+  position: relative;
+  top: 220px;
+  left: 50px;
+  background-color: royalblue;
+  border-radius: 70px;
+  color: white;
+  padding: 10px 20px;
+}
+.psplus-box a:hover {
+  border: white solid 3px;
+}
+.psplus-box a:active {
+  background-color: royalblue;
+}
+.psplus-box__text {
+  width: 50%;
+}
+.ps3d-box {
+  margin-top: 390px;
+}
+.ps3d-box img {
+  width: 100%;
+}
+.pssense-box {
+  text-align: center;
+  margin-top: 50px;
+}
+.pssense-box h1 {
+  font-size: 40px;
+}
+.pssense-box p {
+  margin-top: 35px;
+}
+.pssense-box iframe {
+  margin-top: 40px;
+}
+.pssense-box__info1 img {
+  width: 30%;
+}
+.pssense-box__info2 img {
+  width: 30%;
+}
+.pssense-box__info1 {
+  float: left;
+  width: 45%;
+  text-align: center;
+  margin-left: 65px;
+  margin-top: 50px;
+  height: 400px;
+}
+.pssense-box__info2 {
+  float: right;
+  width: 45%;
+  text-align: center;
+  margin-right: 65px;
+  margin-top: 50px;
+  height: 400px;
+}
+.pssense-box__button {
+  text-align: center;
+}
+.pssense-box__button a {
+  background-color: royalblue;
+  border-radius: 70px;
+  color: white;
+  padding: 10px 20px;
+}
+.pssense-box__button a:hover {
+  border: black solid 3px;
+}
+.psastros {
+  height: 470px;
+}
+.psastros img {
+  float: left;
+  width: 40%;
+  margin-left: 135px;
+  margin-top: 90px;
+}
+.psastros h2 {
+  margin-left: 730px;
+  padding-top: 90px;
+  font-size: 30px;
+}
+.psastros p {
+  margin-left: 730px;
+  margin-bottom: 40px;
+}
+.psastros a {
+  margin-left: 20px;
+  background-color: royalblue;
+  border-radius: 70px;
+  color: white;
+  padding: 10px 20px;
+}
+.psastros a:hover {
+  border: black solid 3px;
+}
+.psec-box {
+  background-color: lightgrey;
+  height: 650px;
+}
+.psec-box h2 {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 40px;
+}
+.psec-box__content {
+  margin-top: 80px;
+  margin-left: 400px;
+}
+.psec-box__content img {
+  width: 9%;
+  float: left;
+  margin-right: 30px;
+}
+.psec-box__content h3 {
+  font-size: 25px;
+}
+.psec-box__content p {
+  font-size: 16px;
+}
+.footer_box {
+  background-color: #eeeeed;
+  width: 91.7%;
+  height: 630px;
+  padding: 60px;
+}
+.Marvel_pic {
+  width: 200px;
+  height: 82px;
+}
+.marvel_rights {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+.BlueFooterbox {
+  background-color: #00439c;
+  width: 93%;
+  height: 370px;
+  padding: 50px;
+  display: flex;
+}
+.Logos {
+  width: 40%;
+  height: auto;
+}
+.Logo_play {
+  width: 250px;
+  height: 130px;
+}
+.Logo_sony {
+  width: 350px;
+  height: 100px;
+}
+.Links {
+  padding: 30px;
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.links1 a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
